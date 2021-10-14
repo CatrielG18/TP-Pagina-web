@@ -1,0 +1,38 @@
+.Header{
+
+    background-color: rgb(243, 239, 239);
+    border-bottom: solid grey 1px;
+    height: 80px;
+    display: flex;
+    padding: 10px;
+
+}
+
+.titulo{
+
+    color: rgb(24, 180, 185);
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+.busqueda{
+
+    border-radius: 5px;
+    border:1px solid rgb(24, 180, 185);
+    height: 27px;
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    left: 40px;
+
+}
+
+h1 a{
+
+    text-decoration: none;
+    color: inherit;
+
+}
