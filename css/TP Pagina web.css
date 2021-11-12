@@ -16,7 +16,7 @@
     position: relative;
     bottom: 10px;
     left: 10px;
-
+    
 }
 
 .busqueda{
@@ -84,3 +84,56 @@ h1 a{
     border-bottom: solid rgb(12, 154, 179) 2px;
 
 }
+
+.Fitness_Nav{
+
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100px;
+    position: fixed;
+    top: 120px;
+    z-index: 1;
+    padding: 20px;
+    border-bottom: solid rgb(12, 154, 179) 1px;
+    border-right: solid rgb(12, 154, 179) 1px;
+    text-align: center;
+
+}
+
+.Link_Nav{
+
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    transition: all 0.5s;
+
+}
+
+.Link_Nav:hover{
+
+    color: rgb(12, 154, 179);
+
+}
+
+.Deporte_Nav{
+
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100px;
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    z-index: 1;
+    padding: 20px;
+    border-bottom: solid rgb(12, 154, 179) 1px;
+    border-left: solid rgb(12, 154, 179) 1px;
+    text-align: center;
+
+}
+
+.Deporte_Nav_2{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
